@@ -1,7 +1,7 @@
 # KipuBank
 
 ## Descripción
-Contrato inteligente que permite depositar y retirar ETH de manera segura, con límites por transacción y límite global de depósitos. Registra la cantidad de depósitos y retiros, y emite eventos para cada operación.
+Contrato inteligente en Solidity que permite depositar y retirar ETH de forma segura, con límites por transacción y un tope global. Registra la cantidad de depósitos y retiros, y emite eventos para cada operación.
 
 ## Despliegue
 1. Abrir Remix y cargar `KipuBank.sol`.
@@ -18,6 +18,5 @@ Ejemplo: `10000000000000000000, 1000000000000000000` (10 ETH, 1 ETH).
 - `getMyBalance()`, `getMyDepositCount()`, `getMyWithdrawCount()`, `getTotalOperations()`: Consultas de estado.
 
 ## Testnet
-- Red: Goerli  
-- Dirección: `0xTuDireccionDeContrato`  
-- Verificación: [Goerli Etherscan](https://goerli.etherscan.io/address/0xTuDireccionDeContrato)
+- Red: Sepolia  
+- Dirección: `0x96ebE02F08fFFF6BC477406B1155E416Cf467bd1` 
